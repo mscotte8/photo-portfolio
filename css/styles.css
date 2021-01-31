@@ -1,0 +1,65 @@
+/* Menu */
+.bg-dark {
+  background-color: #4682B4 !important;
+}
+
+img {
+  width: 50%;
+}
+
+body {
+  font-family: Garamond, serif;
+}
+
+h1, h2 {
+  font-family: Helvetica, sans-serif;
+}
+
+/* Image Grid */
+.portfolio {
+  display: grid;
+  grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.image img {
+  width: 100%;
+}
+
+/* Home Page Container */
+.home-page-container {
+  display: flex;
+  width: 1800px;
+  height: 1800px;
+  justify content: center;
+  flex-wrap: wrap;
+}
+
+/* Home Page Photo */
+.home-page-photo {
+  display: flex;
+  width: 900px;
+  height: 1800px;
+}
+
+/* Home Page Intro */
+.info-container {
+  display: flex;
+  width: 600px;
+  height: 900px;  
+}
+
+/* Reviews Page */
+.review {
+  font-family: Lucida Handwriting, cursive;
+}
+
+.reviewer {
+  font-family: Helvetica, sans-serif;
+}
+
+.page {
+  width: 900px;
+  margin: 0 auto;
+}
